@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *main - main entry point
- *return : always 0 (success)
+ * main - print a line with puts function
+ * Return: always 0(success)
   */
 int main(void)
 {
