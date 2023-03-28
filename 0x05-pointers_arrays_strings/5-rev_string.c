@@ -8,21 +8,21 @@
 void rev_string(char *s)
 {
 	char rev = s[0];
-	int count = 0;
+	int counter = 0;
 	int i;
 
-	while (s[count] != '\0')
+	while (s[counter] != '\0')
 	{
 
-	count++;
+	counter++;
 
 	}
 
-	for (i = 0 ; i < count; i--)
+	for (i = 0 ; i < counter; i++)
 	{
-		count--;
+		counter--;
 		rev = s[i];
-		s[i] = s[count];
-		s[count] = rev;
+		s[i] = s[counter];
+		s[counter] = rev;
 	}
 }
