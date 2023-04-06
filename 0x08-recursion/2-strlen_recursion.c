@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _print_rev_recursion - Function print string in reverse recursion
+* _strlen_recursion - Function print string in reverse recursion
 *
 *@s: the string
 *Return: length of string
